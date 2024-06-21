@@ -1,0 +1,10 @@
+cls
+PSQL="psql --username=freecodecamp --dbname=worldcup --no-align --tuples-only -c"
+[[ $1 == "test" ]]
+./queries.sh
+chmod +x insert_data.sh
+./insert_data.sh
+./insert_data.sh
+chmod +x queries.sh
+./queries.sh
+./queries.sh
